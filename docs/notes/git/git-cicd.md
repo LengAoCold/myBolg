@@ -110,5 +110,5 @@ git push origin main
 1. VitePress 构建产物路径
 ```shell
 # 删除旧文件时可能找不到文件夹，就找一下对应的 vite press build 后构建的目录
-rsync -av --delete .vitepress/dist/ ...
+rsync -av --delete .vitepress/dist/
 ```

@@ -6,6 +6,12 @@ export default defineConfig({
     description: "A VitePress Notes Site",
     base: '/docs',
     lastUpdated: true,
+    locales:{
+      root: {
+        label: 'English',
+        lang: 'en'
+      },
+    },
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
         nav: [
@@ -16,10 +22,22 @@ export default defineConfig({
 
         sidebar: [
             {
-                text: 'Notes',
+                text: 'Git',
+                items: [
+                    {text: 'Git基础命令', link: '/notes/git/git-basic-commands'},
+                    {text: 'Git-cicd', link: '/notes/git/git-cicd'},
+                ]
+            },
+            {
+                text: 'Next',
+                items: [
+                    {text: 'next', link: '/notes/next/next'},
+                ]
+            },
+            {
+                text: 'Development language',
                 items: [
                     {text: 'Notes', link: '/notes'},
-                    {text: 'Git-CIDI', link: '/Git-CICD'},
                     {text: 'Markdown Notes', link: '/markdown-examples'},
                     {text: 'Runtime API Notes', link: '/api-examples'}
                 ]
