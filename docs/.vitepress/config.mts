@@ -6,6 +6,7 @@ export default defineConfig({
     description: "A VitePress Notes Site",
     base: '/docs',
     lang: 'zh-CN',
+    lastUpdated: true,
     themeConfig: {
         lastUpdated: {
             text: '最后更新',

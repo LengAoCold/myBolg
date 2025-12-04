@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: 我的笔记
-      link: /markdown-examples
+      link: /notes/git/git-basic-commands
     - theme: alt
       text: API Examples
       link: /api-examples
