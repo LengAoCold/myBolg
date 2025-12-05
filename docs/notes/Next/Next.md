@@ -2,7 +2,7 @@
 ## 创建项目
 ```shell
 # 全局安装nest
-npm i -g @nestjs/cli
+Npm i -g @nestjs/cli
 
 # cli创建nest项目
 nest new server
@@ -11,7 +11,7 @@ nest new server
 nest g --help
 
 # 安装prisma
-npm install prisma --save-dev
+Npm install prisma --save-dev
 
 # 初始化prisma
 npx prisma init

@@ -14,8 +14,8 @@ kill -9 PID
 :::
 
 
-## 文件夹显示隐藏文件
-::: info 文件夹显示隐藏文件
+## 显示隐藏文件
+::: info 显示隐藏文件
 ```shell
 command + shift + .
 ```

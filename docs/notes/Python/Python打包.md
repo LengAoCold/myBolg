@@ -24,7 +24,7 @@ pyinstaller --add-data "templates;templates" --add-data "static;static" --onefil
 ```shell
 # 配置 PyInstaller 的 .spec 文件（可选）
 # app.spec 文件
-# -*- mode: python ; coding: utf-8 -*-
+# -*- mode: Python ; coding: utf-8 -*-
 
 block_cipher = None
 

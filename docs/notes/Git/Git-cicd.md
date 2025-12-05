@@ -66,6 +66,8 @@ jobs:
     steps:
       - name: Checkout Source
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Setup Node
         uses: actions/setup-node@v4
@@ -73,7 +75,7 @@ jobs:
           node-version: 22
 
       - name: Install pnpm
-        run: npm install -g pnpm
+        run: Npm install -g pnpm
 
       - name: Install Dependencies (pnpm)
         run: pnpm install --frozen-lockfile
@@ -103,9 +105,9 @@ jobs:
 ## 开始测试
 本地提交代码
 ```shell
-git add .
-git commit -m "update docs"
-git push origin main
+Git add .
+Git commit -m "update docs"
+Git push origin main
 ```
 就会自动按照yml脚本运行，并显示运行结果：
 

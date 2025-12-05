@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "isolatedModules": true,
+
+    "strict": true,
+    "esModuleInterop": true,
+
+    "jsx": "preserve",
+
+    "resolveJsonModule": true,
+
+    "types": [
+      "node",
+      "vue",
+      "vite/client"
+    ]
+  },
+  "include": [
+    "env.d.ts",
+    "docs/.vitepress/**/*.ts",
+    "docs/**/*.ts",
+    "**/*.vue"
+  ]
+}
